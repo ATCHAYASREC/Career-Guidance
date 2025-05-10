@@ -1,0 +1,122 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('front.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #333;
+}
+.navbar {
+    background-color: #1e9068;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logo img {
+    height: 30px;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.heading {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff; /* White text color for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for readability */
+}
+
+
+.title {
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 0;
+    color: #fff; /* White text color for better contrast */
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #fff; /* White text color for better contrast */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px; /* Rounded input fields */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    font-size: 18px;
+    color: #333; /* Dark text color for better readability */
+    outline: none;
+}
+
+.submit-btn {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px; /* Rounded button */
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.submit-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.app-info {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #fff; /* White text color for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for readability */
+}
+
+.question {
+    margin-bottom: 30px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .app-info {
+        padding: 0 20px;
+    }
+}
